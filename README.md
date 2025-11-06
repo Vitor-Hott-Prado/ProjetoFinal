@@ -15,12 +15,7 @@ Cada gota coletada emite um som, e uma música de fundo toca em loop durante o j
 
 ---
 
-## 🖼️ Prévia do Jogo
 
-> Substitua pelas suas imagens do projeto:
->
-> ![Tela Inicial](assets/screenshot1.png)
-> ![Gameplay](assets/screenshot2.png)
 
 ---
 
@@ -46,8 +41,9 @@ senai.projeto.vitorhott/
 │   ├── drop.mp3             # Som da gota sendo coletada
 │   └── music.mp3            # Música de fundo
 └── README.md
+ ```
 
-⚙️ Como Executar o Projeto
+## ⚙️ Como Executar o Projeto
 ✅ Pré-requisitos
 
 Antes de rodar o jogo, instale:
@@ -73,12 +69,13 @@ Execute a classe Main.java.
 
 Divirta-se coletando gotas! 💧
 
-🎮 Controles
+##🎮 Controles
 Ação	Tecla / Comando
 Mover para esquerda	← (seta esquerda)
 Mover para direita	→ (seta direita)
 Movimento via toque/mouse	Clique ou toque na tela
-🧠 Lógica do Jogo
+
+##🧠 Lógica do Jogo
 
 As gotas são criadas a cada 1 segundo.
 
@@ -92,7 +89,7 @@ A gota é removida da tela.
 
 A música de fundo toca em loop durante toda a execução do jogo.
 
-🧩 Recursos Técnicos
+##🧩 Recursos Técnicos
 
 Renderização com SpriteBatch
 
@@ -104,7 +101,7 @@ Movimentação baseada em deltaTime
 
 Áudio: Gdx.audio.newSound() e Gdx.audio.newMusic()
 
-💡 Melhorias Futuras
+##💡 Melhorias Futuras
 
  Adicionar pontuação e contador de gotas coletadas
 
@@ -118,13 +115,13 @@ Movimentação baseada em deltaTime
 
  Melhorar responsividade e proporção da tela
 
-👨‍💻 Autor
+##👨‍💻 Autor
 
 Desenvolvido por Vitor Hott
 
 💬 Projeto criado para estudos e prática de Java + LibGDX no IntelliJ IDEA.
 
-🧾 Licença
+##🧾 Licença
 
 Este projeto é de uso educacional e livre.
 Você pode modificar e compartilhar o código livremente, desde que mantenha os créditos.
